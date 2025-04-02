@@ -14,6 +14,6 @@ document,addEventListener('DOMContentLoaded', function(){
         tamanhoAtualFonte -=0.1;
         document.body.style.fontSize = `${tamanhoAtualFonte}rem`
     })
-
+    
     
 })
