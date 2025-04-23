@@ -6,6 +6,11 @@ document,addEventListener('DOMContentLoaded', function(){
       botaoDeAcessibilidade.classList.toggle('rotacao-botao');
       opcoesAcessibilidade.classList.toggle('apresenta-lista');
     })
+
+    const alternaContraste = document.getElementById('alterna-contraste')
+    alternaContraste.addEventListener('click', function(){
+        document.body.classList.toggle('alto-contraste')
+    })
     
     let tamanhoAtualFonte = 1;
 
